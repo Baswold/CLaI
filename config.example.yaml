@@ -1,0 +1,18 @@
+# CLaI Configuration Example
+# Copy this to ~/.clai/config.yaml and customize
+
+# Default LLM provider (openai or anthropic)
+provider: openai
+
+# OpenAI Configuration
+openai_api_key: sk-...  # Optional: Can use OPENAI_API_KEY env var instead
+openai_model: gpt-4o    # Options: gpt-4o, gpt-4o-mini, gpt-3.5-turbo
+
+# Anthropic Configuration
+anthropic_api_key: sk-ant-...  # Optional: Can use ANTHROPIC_API_KEY env var instead
+anthropic_model: claude-3-5-sonnet-20241022  # Options: claude-3-5-sonnet-20241022, claude-3-haiku-20240307
+
+# Small model recommendations for high reasoning:
+# - claude-3-5-haiku-20241022 (Anthropic - fast, cheap, strong reasoning)
+# - gpt-4o-mini (OpenAI - fast, cheap, decent reasoning)
+# - claude-3-5-sonnet-20241022 (Anthropic - best overall, more expensive)

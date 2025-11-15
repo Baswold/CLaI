@@ -1,0 +1,9 @@
+# Core dependencies
+rich>=13.0.0
+
+# LLM Provider support (install what you need)
+openai>=1.0.0
+anthropic>=0.18.0
+
+# Optional: Configuration file support
+pyyaml>=6.0
